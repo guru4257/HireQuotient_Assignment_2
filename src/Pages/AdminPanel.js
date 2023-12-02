@@ -111,6 +111,7 @@ const AdminPanel = () => {
             name="search"
             placeholder="Search here..."
             onChange={OnHandleChange}
+            value={searchValue.search}
             className="search-box"
           ></input>
           <button className="search" type="submit">Search</button>
