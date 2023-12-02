@@ -83,7 +83,7 @@ const AdminPanel = () => {
   const onHanldeSubmit = (e)=>{
        e.preventDefault();
        onSearchData(searchValue.search);
-       searchValue('');
+       setSearchValue('');
   }
 
   const onSearchData = (searchWord)=>{
