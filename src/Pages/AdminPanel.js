@@ -98,7 +98,7 @@ const AdminPanel = () => {
            return userName.includes(word) || userEmail.includes(word) || userRole.includes(word);
        })
 
-       setUsers(newData);
+       setUsers(newData); 
   }
  
   return (
