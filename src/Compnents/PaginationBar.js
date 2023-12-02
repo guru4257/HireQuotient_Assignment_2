@@ -11,9 +11,11 @@ const PaginationBar = (props)=>{
      const[currentPageNo,setCurrentPageNo] = useState(pageNo);
 
      const selectedPage = (e)=>{
-         if(e>=1 && e<=pageLength && e!==currentPageNo)
-         changePageNo(e);   
-         setCurrentPageNo(e);
+         if(e>=1 && e<=pageLength && e!==currentPageNo){
+            changePageNo(e);   
+            setCurrentPageNo(e);
+         }
+         
      }
      return(
         <div className="pagination">
