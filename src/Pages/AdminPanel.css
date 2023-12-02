@@ -1,0 +1,36 @@
+.search-box{
+    margin: 15px 4px 8px 30px;
+    width:400px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.search{
+    height: 35px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.delete-selected{
+
+     height: 40px;
+     width: 40px;
+     margin-top: 15px;
+     margin-right: 5%;
+     background-color: red;
+     color: white;
+     border-color: red;
+     border-radius: 5px;
+}
+/* .delete-selected{
+    margin: 15px 4px 8px 30px;
+    width:140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    
+} */
